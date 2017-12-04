@@ -1,0 +1,6 @@
+args=$@
+imageName=$(cat ../IMAGE_PREFIX)/$(basename "$PWD")
+
+docker run --rm \
+-v $(pwd):/documents \
+${imageName} ${args}

@@ -1,4 +1,4 @@
-= Intro
+= Docker application runners
 This is a collection of docerimages I use
 
 = How to use
